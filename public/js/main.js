@@ -1,4 +1,3 @@
-
 import * as THREE from 'three';
 
 //building a scene
@@ -23,7 +22,7 @@ const geometry = new THREE.BoxGeometry(1,1,1);
 //Then define the color or a specific material
 const material = new THREE.MeshBasicMaterial({color: 0x00ff00});
 //Create the cube as a Mesh by giving him the previous variables
-const cube = new THREE.Mesh ( geometry, material)
+const cube = new THREE.Mesh ( geometry, material);
 
 //add the mesh to the scene
 scene.add(cube);
